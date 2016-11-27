@@ -9,4 +9,10 @@ public class ClassA implements InterfaceA, InterfaceB {
         InterfaceA.greet();
         objA.show();
     }
+
+    @Override
+    public void show() {
+        InterfaceA.show();
+        InterfaceB.super.show();
+    }
 }
