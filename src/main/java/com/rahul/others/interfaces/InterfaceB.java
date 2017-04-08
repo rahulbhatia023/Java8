@@ -1,4 +1,4 @@
-package com.rahul.interfaces;
+package com.rahul.others.interfaces;
 
 public interface InterfaceB {
     default void show() {

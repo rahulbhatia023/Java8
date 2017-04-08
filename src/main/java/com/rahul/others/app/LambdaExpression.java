@@ -1,6 +1,6 @@
-package com.rahul.app;
+package com.rahul.others.app;
 
-import com.rahul.interfaces.InterfaceC;
+import com.rahul.others.interfaces.InterfaceC;
 
 public class LambdaExpression {
 

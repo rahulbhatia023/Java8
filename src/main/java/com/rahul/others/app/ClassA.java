@@ -1,7 +1,7 @@
-package com.rahul.app;
+package com.rahul.others.app;
 
-import com.rahul.interfaces.InterfaceA;
-import com.rahul.interfaces.InterfaceB;
+import com.rahul.others.interfaces.InterfaceA;
+import com.rahul.others.interfaces.InterfaceB;
 
 public class ClassA implements InterfaceA, InterfaceB {
     public static void main(String args[]) {

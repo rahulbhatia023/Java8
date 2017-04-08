@@ -1,4 +1,4 @@
-package com.rahul.app;
+package com.rahul.others.app;
 
 import java.util.Arrays;
 import java.util.List;
