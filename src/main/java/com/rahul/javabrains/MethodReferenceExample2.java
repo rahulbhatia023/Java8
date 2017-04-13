@@ -1,23 +1,17 @@
 package com.rahul.javabrains;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-public class UnitExerciseSolutionJava8 {
+public class MethodReferenceExample2 {
     public static void main(String args[]) {
         List<Person> people = Arrays.asList(
                 new Person("Rahul", "Bhatia", 26),
                 new Person("Shivam", "Mishra", 28),
                 new Person("Mohit", "Benadikar", 25),
                 new Person("Anant", "Choudhary", 23));
-
-        Collections.sort(people, (p1, p2) -> p1.getLastName().compareTo(p2.getLastName()));
-
-        System.out.println("Printing all persons on the ordering basis of Last Name: ");
-        printAll(people);
 
         System.out.println("Printing all persons whose last name starts with 'B': ");
         performConditionally(people, person -> person.getLastName().startsWith("B"), System.out::println);
@@ -29,9 +23,5 @@ public class UnitExerciseSolutionJava8 {
                 consumer.accept(person);
             }
         });
-    }
-
-    private static void printAll(List<Person> people) {
-        people.forEach(System.out::println);
     }
 }
