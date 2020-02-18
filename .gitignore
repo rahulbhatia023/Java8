@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/Java8.iml
+.idea/codeStyles/
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+src/main/java/com/rahul/Test.java
+target/
